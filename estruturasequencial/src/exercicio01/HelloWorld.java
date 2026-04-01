@@ -1,4 +1,4 @@
-package helloworld;
+package exercicio01;
 
 public class HelloWorld {
 
