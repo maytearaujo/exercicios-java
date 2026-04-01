@@ -1,10 +1,10 @@
-package soma;
+package exercicio03;
 import java.util.Scanner;
 
-public class Soma {
+public class SomarNumeros {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub		
 		Scanner leia = new Scanner(System.in);
 		int num1, num2, soma;
 		
@@ -18,6 +18,7 @@ public class Soma {
 		
 		System.out.printf("A soma entre %d e %d é %d", num1, num2, soma);
 		
+
 	}
 
 }
