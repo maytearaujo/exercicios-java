@@ -1,7 +1,7 @@
-package exercicio16;
+package sequencial;
 import java.util.Scanner;
 
-public class LojaTintas {
+public class Exercicio16 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

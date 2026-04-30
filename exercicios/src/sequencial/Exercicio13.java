@@ -1,8 +1,8 @@
-package exercicio13;
+package sequencial;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class pesoIdealMF {
+public class Exercicio13 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

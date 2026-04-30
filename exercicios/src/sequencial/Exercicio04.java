@@ -1,7 +1,7 @@
-package exercicio04;
+package sequencial;
 import java.util.Scanner;
 
-public class MediaBimestral {
+public class Exercicio04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,13 +11,13 @@ public class MediaBimestral {
 		System.out.print("Informe a 1º nota: ");
 		n1 = leia.nextFloat();
 
-		System.out.print("Informe a 1º nota: ");
+		System.out.print("Informe a 2º nota: ");
 		n2 = leia.nextFloat();
 
-		System.out.print("Informe a 1º nota: ");
+		System.out.print("Informe a 3º nota: ");
 		n3 = leia.nextFloat();
 
-		System.out.print("Informe a 1º nota: ");
+		System.out.print("Informe a 4º nota: ");
 		n4 = leia.nextFloat();
 		
 		media = (n1 + n2 + n3 + n4) / 4;

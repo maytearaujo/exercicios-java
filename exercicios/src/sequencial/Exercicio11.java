@@ -1,8 +1,8 @@
-package exercicio11;
+package sequencial;
 
 import java.util.Scanner;
 
-public class Numeros {
+public class Exercicio11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,7 +1,7 @@
-package exercicio03;
+package sequencial;
 import java.util.Scanner;
 
-public class SomarNumeros {
+public class Exercicio03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
