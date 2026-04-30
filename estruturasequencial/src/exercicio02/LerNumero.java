@@ -13,6 +13,7 @@ public class LerNumero {
 		
 		System.out.printf("O número informado é %d", numero);
 		
+		leia.close();
 	}
 
 }

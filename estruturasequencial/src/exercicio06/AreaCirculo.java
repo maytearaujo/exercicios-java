@@ -13,6 +13,8 @@ public class AreaCirculo {
 		
 		area = (float) (3.14 * (raio * raio));
 		System.out.printf("A área do círculo é: %.2f", area);
+		
+		leitor.close();
 	}
 
 }

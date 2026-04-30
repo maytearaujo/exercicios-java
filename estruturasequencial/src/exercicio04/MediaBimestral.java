@@ -23,6 +23,8 @@ public class MediaBimestral {
 		media = (n1 + n2 + n3 + n4) / 4;
 		
 		System.out.printf("A nota média é: %.2f", media);
+		
+		leia.close();
 	}
 
 }

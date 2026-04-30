@@ -18,6 +18,7 @@ public class CalculoSalario {
 		salarioMensal = qtdHorasTrabalhadas * valorHoraTrabalhada;
 		System.out.printf("Salário Mensal: %.2f", salarioMensal);
 
+		leitor.close();
 	}
 
 }

@@ -1,0 +1,32 @@
+package exercicio16;
+import java.util.Scanner;
+
+public class LojaTintas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner leitor = new Scanner(System.in);
+		
+		double  area, litros, precoTotal, latas;
+		
+		System.out.print("Informe a area a ser pintada (m²): ");
+		area = leitor.nextFloat();
+		
+		litros = area / 3;
+		latas = litros / 18;
+		latas = Math.ceil(latas);
+		precoTotal = Math.ceil(latas) * 80;
+		
+		System.out.printf("Para pintar %.2f m² será necessário utilizar %.0f latas de tintas e custará R$ %.2f", area, latas, precoTotal);
+		  
+		leitor.close();
+	}
+
+}
+/*
+ * Faça um programa para uma loja de tintas. 
+ * O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
+ *  Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
+ *  e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00.
+ *   Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+ */

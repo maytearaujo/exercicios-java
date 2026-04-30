@@ -12,6 +12,8 @@ public class ConverteMetro {
 		metros = leia.nextFloat();
 		centimetros = metros * 100;
 		System.out.printf("%.2f metros equivalem a %.2f centimetros", metros, centimetros);
+		
+		leia.close();
 	}
 
 }
