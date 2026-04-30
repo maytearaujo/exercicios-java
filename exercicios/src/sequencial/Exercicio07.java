@@ -1,7 +1,7 @@
-package exercicio07;
+package sequencial;
 import java.util.Scanner;
 
-public class AreaQuadrado {
+public class Exercicio07 {
 	public static void main (String[] args){
 		Scanner leitor = new Scanner(System.in);
 		float area, lado, dobroArea;

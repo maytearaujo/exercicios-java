@@ -1,8 +1,8 @@
-package exercicio08;
+package sequencial;
 
 import java.util.Scanner;
 
-public class CalculoSalario {
+public class Exercicio08 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

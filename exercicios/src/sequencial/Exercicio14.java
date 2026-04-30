@@ -1,7 +1,7 @@
-package exercicio14;
+package sequencial;
 import java.util.Scanner;
 
-public class Pescador {
+public class Exercicio14 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

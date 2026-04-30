@@ -1,7 +1,7 @@
-package exercicio15;
+package sequencial;
 import java.util.Scanner;
 
-public class Salario {
+public class Exercicio15 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
