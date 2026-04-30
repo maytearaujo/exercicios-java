@@ -2,6 +2,16 @@
 
 https://web.archive.org/web/20240422192554/https://wiki.python.org.br/EstruturaSequencial
 
+- [Estrutura Sequencial](#estrutura-sequencial)
+- [Estrutura De Decisão](#estrutura-de-decisão)
+- [Estrutura De Repeticao](#estrutura-de-repeticao)
+- [Exercicios Listas](#exercicios-listas)
+- [Exercicios Funcoes](#exercicios-funcoes)
+- [Exercicio sComStrings](#exercicios-com-strings)
+- [Exercicios Arquivos](#exercicios-arquivos)
+- [Exercicios Classes](#exercicios-classes)
+- [Lista De Exercicios Projetos](#lista-de-exercicios-projetos)
+
 ## Estrutura Sequencial
 
 1.	Faça um Programa que mostre a mensagem "Alo mundo" na tela.
@@ -46,6 +56,7 @@ o	Informe ao usuário as quantidades de tinta a serem compradas e os respectivos
 18.	Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 
 ## Estrutura de Decisão
+
 1. Faça um Programa que peça dois números e imprima o maior deles.
 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
