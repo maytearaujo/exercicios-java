@@ -19,7 +19,7 @@ public class LojaTintas {
 		
 		System.out.printf("Para pintar %.2f m² será necessário utilizar %.0f latas de tintas e custará R$ %.2f", area, latas, precoTotal);
 		  
-
+		leitor.close();
 	}
 
 }

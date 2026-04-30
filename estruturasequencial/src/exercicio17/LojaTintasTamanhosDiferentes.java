@@ -42,6 +42,7 @@ public class LojaTintasTamanhosDiferentes {
 		  
 		System.out.printf("Para pintar %.2f m² utilizando latas de 18 e de 3.6 litros será necessário utilizar %n %.0f latas de 18 litros e %.0f latas de 3.6 litros de tintas e custará R$ %.2f", area, latas18_2, latas3_6_2, precoTotal);
 
+		leitor.close();
 	}
 
 }
