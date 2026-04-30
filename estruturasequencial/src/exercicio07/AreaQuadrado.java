@@ -14,6 +14,8 @@ public class AreaQuadrado {
 		
 		System.out.printf("Área do quadrado: %.2f %n", area);
 		System.out.printf("Dobro da área do quadrado: %.2f", dobroArea);
+		
+		leitor.close();
 	}
 
 }

@@ -18,7 +18,7 @@ public class SomarNumeros {
 		
 		System.out.printf("A soma entre %d e %d é %d", num1, num2, soma);
 		
-
+		leia.close();
 	}
 
 }

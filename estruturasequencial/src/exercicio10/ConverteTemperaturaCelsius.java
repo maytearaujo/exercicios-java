@@ -13,6 +13,8 @@ public class ConverteTemperaturaCelsius {
 		
 		F = (C * 9/5) + 32;
 		System.out.printf("%.2f graus Fahrenheit equivalem a %.2f graus Celsius ", C, F);
+		
+		leitor.close();
 	}
 
 }
