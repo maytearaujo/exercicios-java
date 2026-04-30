@@ -17,7 +17,7 @@ public class LojaTintas {
 		latas = Math.ceil(latas);
 		precoTotal = Math.ceil(latas) * 80;
 		
-		System.out.printf("Para pintas %.2f m² será necessário utilizar %.0f latas de tintas e custará R$ %.2f", area, latas, precoTotal);
+		System.out.printf("Para pintar %.2f m² será necessário utilizar %.0f latas de tintas e custará R$ %.2f", area, latas, precoTotal);
 		  
 
 	}
