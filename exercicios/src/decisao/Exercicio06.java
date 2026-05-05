@@ -50,6 +50,7 @@ public class Exercicio06 {
 				System.out.printf("%d  é o maior número", numero2);	
 		}
 
+		ler.close();
 	}
 
 }
