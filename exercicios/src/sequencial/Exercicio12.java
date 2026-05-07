@@ -15,6 +15,8 @@ public class Exercicio12 {
 		
 		pesoIdeal =  (72.7f * altura) - 58;
 		System.out.println("O seu peso ideal é: " + df.format(pesoIdeal));
+		
+		leitor.close();
 
 	}
 
