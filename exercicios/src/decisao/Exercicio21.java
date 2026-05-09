@@ -36,24 +36,8 @@ public class Exercicio21 {
 					
 				}
 			}
-			/*if ((valorSaque >= 5 && valorSaque < 10)|| (resto > 0 && resto >= 5)) {
-				if (resto == 0) {
-					notas5 = valorSaque / 5;
-					resto = valorSaque % 5;
-				} else {					
-					notas5 = resto / 5;
-					resto = resto % 5;
-				}
-			}
-			if ((valorSaque >= 1 && valorSaque < 5) || resto >= 1) {
-				if (resto == 0) {					
-					notas1 = valorSaque / 1;
-				}
-				else {
-					notas1 = resto / 1;
-				}
-			}	*/
-			if (resto > 5 && resto < 10) {
+			
+			if (resto >= 5 && resto < 10) {
 						
 					notas5 = resto / 5;
 					resto = resto % 5;
@@ -81,6 +65,7 @@ public class Exercicio21 {
 				
 		} else
 			System.out.println("Valor Inválido!");
+		texto.close();
 	}
 
 }
