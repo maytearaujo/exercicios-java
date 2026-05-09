@@ -30,6 +30,8 @@ public class Exercicio10 {
 				System.out.println("Valor Inválido!");
 				break;
 		}
+		
+		leitor.close();
 	}
 
 }
