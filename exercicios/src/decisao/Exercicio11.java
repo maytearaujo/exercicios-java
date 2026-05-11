@@ -27,7 +27,7 @@ public class Exercicio11 {
 				+ "o percentual de aumento aplicado: %.0f%%\r\n"
 				+ "o valor do aumento: R$ %.2f\r\n"
 				+ "o novo salário: R$ %.2f", salarioAtual, percentualAumento*100, valorAumento, novoSalario);
-		
+		leitor.close();
 	}
 
 }

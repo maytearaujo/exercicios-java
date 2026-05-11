@@ -37,7 +37,8 @@ public class Exercicio12 {
 				+ "        (-) INSS ( 10%%)                 : R$ %.2f\n"
 				+ "        FGTS (11%%)                      : R$ %.2f\n"
 				+ "        Total de descontos              : R$ %.2f\n"
-				+ "        Salário Liquido                 : R$ %.2f", salarioBruto, impostoRenda, inss, fgts, descontos, salarioLiquido);
+				+ "        Salário Liquido                 : R$ %.2f"
+				+ "        Sindicato                       : R$ %.2f", salarioBruto, impostoRenda, inss, fgts, descontos, salarioLiquido, sindicato);
 	leitor.close();
 	}
 
