@@ -51,6 +51,8 @@ public class Exercicio03 {
 				+ "Sexo: %c\n"
 				+ "Estado Civil: %c\n",
 				nome, idade, salario, sexo, estadoCivil);
+		
+		leitor.close();
 	}
 
 }
