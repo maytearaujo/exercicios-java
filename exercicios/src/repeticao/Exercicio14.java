@@ -19,7 +19,7 @@ public class Exercicio14 {
 				impares++;
 		}
 		
-		System.out.printf("%d números pares\n%d números impares", pares, impares);
+		System.out.printf("\n%d números pares\n%d números impares", pares, impares);
 		leitor.close();
 	}
 
