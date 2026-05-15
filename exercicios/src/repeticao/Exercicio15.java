@@ -1,5 +1,4 @@
 package repeticao;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio15 {

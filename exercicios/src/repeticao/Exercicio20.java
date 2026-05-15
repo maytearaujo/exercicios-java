@@ -26,6 +26,8 @@ public class Exercicio20 {
 		} while(resposta != 's' && resposta != 'n');
 		
 		System.out.print("Programa Finalizado!");
+		
+		leitor.close();
 	}
 
 }
