@@ -27,6 +27,7 @@ public class Exercicio36 {
 		for (int i = inicio; i <= fim; i++)
 			System.out.println(numero + " X " + i + " = " + (numero*i));
 
+		leitor.close();
 	}
 
 }
