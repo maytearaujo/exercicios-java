@@ -1,7 +1,7 @@
 package repeticao;
 import java.util.Scanner;
 
-public class Exercicioo41 {
+public class Exercicio41 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
