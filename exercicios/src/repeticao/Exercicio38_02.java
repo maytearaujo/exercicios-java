@@ -1,12 +1,19 @@
 package repeticao;
+import java.util.Scanner;
 
-public class Exercicio38 {
+public class Exercicio38_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double salarioInicial = 1000, salarioAtual;
+		double salarioInicial, salarioAtual;
 		double taxaAumento = 0.015, valorAumento;
+		Scanner leitor = new Scanner(System.in);
 
+		do {
+			System.out.print("Informe o salário inicial: ");
+			salarioInicial = leitor.nextDouble();
+		} while (salarioInicial <= 0);
+		
 		valorAumento = salarioInicial * taxaAumento;
 		salarioAtual = salarioInicial + valorAumento;
 		
@@ -16,6 +23,8 @@ public class Exercicio38 {
 			salarioAtual = salarioAtual + valorAumento;
 		}
 		System.out.printf("Salário Atual: %.2f", salarioAtual);
+		
+		leitor.close();
 	}
 
 }

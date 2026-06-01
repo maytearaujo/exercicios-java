@@ -9,7 +9,7 @@ public class Exercicio43 {
 		Scanner input = new Scanner(System.in);
 		char resposta;
 		int [] codigo = {100, 101, 102, 103, 104, 105};
-		boolean isCodigoInvalido = false;
+		boolean codigoExiste = false;
 		int codigoItem, qtdItem, quantidadeAtual;
 		float totalGeral = 0;
 		ArrayList<ArrayList<Integer>> compra = new ArrayList<>();
@@ -36,9 +36,9 @@ public class Exercicio43 {
 				
 				for (int c : codigo) {
 					if (codigoItem == c )
-						isCodigoInvalido = true;					
+						codigoExiste = true;					
 				}
-			} while (!isCodigoInvalido );
+			} while (!codigoExiste );
 			
 			do {
 				System.out.print("Informe a quantidade: ");
@@ -56,7 +56,7 @@ public class Exercicio43 {
 				resposta = Character.toLowerCase(input.next().charAt(0));	
 
 				if (resposta == 's') {
-					isCodigoInvalido = false;
+					codigoExiste = false;
 					itemCompra = new ArrayList<>();
 				}
 			} while (resposta != 's' && resposta != 'n');
