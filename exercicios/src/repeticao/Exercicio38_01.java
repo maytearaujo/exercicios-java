@@ -1,6 +1,6 @@
 package repeticao;
 
-public class Exercicio38 {
+public class Exercicio38_01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
