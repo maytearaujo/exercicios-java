@@ -24,6 +24,7 @@ public class Exercicio51 {
 			
 		}
 		System.out.printf("\nSoma dos termos: %.2f", S);
+		leitor.close();
 	}
 
 }
