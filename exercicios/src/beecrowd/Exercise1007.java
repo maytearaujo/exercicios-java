@@ -16,6 +16,7 @@ public class Exercise1007 {
         DIFERENCA =(A * B - C * D);
         
         System.out.print("DIFERENCA = " + DIFERENCA + "\n");
+        input.close();
 	}
 
 }
