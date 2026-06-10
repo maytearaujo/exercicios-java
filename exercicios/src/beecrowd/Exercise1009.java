@@ -17,7 +17,7 @@ public class Exercise1009 {
         comission = totalSales * 0.15;
         total = fixSalary + comission;
         
-        System.out.printf("TOTAL = R$ %.2f", total);
+        System.out.printf("%s\nTOTAL = R$ %.2f", name, total);
         
         input.close();
         
