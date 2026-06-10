@@ -1,7 +1,7 @@
 package listas;
 import java.util.Scanner;
 
-public class Exexrcicio17 {
+public class Exercicio17 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
