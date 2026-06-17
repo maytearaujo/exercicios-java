@@ -62,7 +62,9 @@ public class Exercicio23 {
 	public static double calcularPercentural (double espacoMegabytes, double total) {
 		double percentual;
 		
-		return percentual = (espacoMegabytes * 100) / total;
+		percentual = (espacoMegabytes * 100) / total;
+		
+		return percentual;
 	}
 	
 	public static void main(String[] args) {
