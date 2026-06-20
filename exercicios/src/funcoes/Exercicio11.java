@@ -7,66 +7,71 @@ public class Exercicio11 {
 		String dataExtenso = "", sMes = "";
 		int dia, mes, ano;
 		
-		if (data.length() != 10)
+		if (data.length() != 10 || data.charAt(2) != '/' || data.charAt(5) != '/')
 			dataExtenso = "Data inválida!";
 		else {
-			dia = Integer.parseInt(data.substring(0,2));
-			mes = Integer.parseInt(data.substring(3,5));
-			ano = Integer.parseInt(data.substring(6,10));
+			try {
 			
-			if ((dia < 1 || dia > 31) || (mes < 1 || mes > 12)) 
-				dataExtenso = "Data inválida!";
-			else {
+				dia = Integer.parseInt(data.substring(0,2));
+				mes = Integer.parseInt(data.substring(3,5));
+				ano = Integer.parseInt(data.substring(6,10));
 				
-				if (
-						(mes == 2 && (dia == 30 || dia == 31) ||						
-						((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30))
-					)
+				if ((dia < 1 || dia > 31) || (mes < 1 || mes > 12)) 
 					dataExtenso = "Data inválida!";
-				else {					
-							
-					switch (mes) {
+				else {
 					
-					case 1:
-						sMes = "Janeiro";
-						break;
-					case 2:
-						sMes = "Fevereiro";
-						break;
-					case 3:
-						sMes = "Março";
-						break;
-					case 4:
-						sMes = "Abril";
-						break;
-					case 5:
-						sMes = "Maio";
-						break;
-					case 6:
-						sMes = "Junho";
-						break;
-					case 7:
-						sMes = "Julho";
-						break;
-					case 8:
-						sMes = "Agosto";
-						break;
-					case 9:
-						sMes = "Setembro";
-						break;
-					case 10:
-						sMes = "Outubro";
-						break;
-					case 11:
-						sMes = "Novembro";
-						break;
-					case 12:
-						sMes = "Dezembro";
-						break;
+					if (
+							(mes == 2 && (dia == 30 || dia == 31) ||						
+							((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30))
+						)
+						dataExtenso = "Data inválida!";
+					else {					
+								
+						switch (mes) {
+						
+						case 1:
+							sMes = "Janeiro";
+							break;
+						case 2:
+							sMes = "Fevereiro";
+							break;
+						case 3:
+							sMes = "Março";
+							break;
+						case 4:
+							sMes = "Abril";
+							break;
+						case 5:
+							sMes = "Maio";
+							break;
+						case 6:
+							sMes = "Junho";
+							break;
+						case 7:
+							sMes = "Julho";
+							break;
+						case 8:
+							sMes = "Agosto";
+							break;
+						case 9:
+							sMes = "Setembro";
+							break;
+						case 10:
+							sMes = "Outubro";
+							break;
+						case 11:
+							sMes = "Novembro";
+							break;
+						case 12:
+							sMes = "Dezembro";
+							break;
+						}
+					
+						dataExtenso = dia + " de " + sMes + " de " + ano;
 					}
-				
-					dataExtenso = dia + " de " + sMes + " de " + ano;
 				}
+			} catch(Exception erro) {
+				System.out.println("Erro ao executar o programa");
 			}
 		}
 		
