@@ -1,4 +1,4 @@
-package classes.test;
+package classes.teste;
 import classes.dominio.Carro;
 
 public class CarroTeste {
@@ -16,8 +16,8 @@ public class CarroTeste {
 		carro2.modelo = "Volkswagen";
 		carro2.ano = 1962;
 
-		System.out.printf("%s %s %d", carro1.nome, carro1.modelo, carro1.ano);
-		System.out.printf("\n%s %s %d", carro2.nome, carro2.modelo, carro2.ano);
+		System.out.printf("Carro 1: %s %s %d", carro1.nome, carro1.modelo, carro1.ano);
+		System.out.printf("\nCarro 2: %s %s %d", carro2.nome, carro2.modelo, carro2.ano);
 	}
 
 }

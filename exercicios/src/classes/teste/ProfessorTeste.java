@@ -1,4 +1,4 @@
-package classes.test;
+package classes.teste;
 
 import classes.dominio.Professor;
 
