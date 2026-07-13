@@ -2,7 +2,7 @@ package classes.teste;
 
 import classes.dominio.Bola;
 
-public class Exercicio01_BolaTeste {
+public class BolaTeste {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
