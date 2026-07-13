@@ -3,19 +3,17 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
-//import java.io.BufferedWriter;
-//import java.io.FileWriter;
 import java.util.ArrayList;
 
 public class Exercicio23 {
 	
 	public static ArrayList <String> lerArquivo() {
-		String caminho = "usuarios.txt";
+		String caminho = "listas_exercicio23_usuarios.txt";
 		ArrayList <String> linhas = new ArrayList<>();
 		String linha;
 		
 
-		try (BufferedReader leitor = new BufferedReader (new FileReader(caminho)); ) {
+		try (BufferedReader leitor = new BufferedReader (new FileReader(caminho)) ) {
 						
 			
 		    while ((linha = leitor.readLine()) != null) {
@@ -35,7 +33,7 @@ public class Exercicio23 {
 	public static void gravarArquivo(String conteudo) {
 		
 		try {
-			String caminho = "relatório.txt";
+			String caminho = "listas_exercicio23_relatório.txt";
 			BufferedWriter escritor = new BufferedWriter(new FileWriter(caminho, false));
 			
 			escritor.write(conteudo);
