@@ -1,4 +1,4 @@
-package classes.seminarios;
+package classes.associacao;
 
 public class Professor {
 	private String nome;

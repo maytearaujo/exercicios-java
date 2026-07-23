@@ -1,4 +1,4 @@
-package classes.seminarios;
+package classes.associacao;
 
 public class Local {
 	private String endereco;
