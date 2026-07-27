@@ -9,10 +9,17 @@ public class BichinhoVirtual {
 	public BichinhoVirtual() {
 		
 	}
+	
+	
+	public BichinhoVirtual(int fome) {
+		this.fome = fome;
+	}
+	
+	
 
 	public int getHumor() {
 		
-		return (this.fome + this.saude) / 2;
+		return ((100 - this.fome )+ this.saude) / 2;
 				
 	}
 	
