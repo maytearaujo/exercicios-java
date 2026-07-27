@@ -16,6 +16,21 @@ public class BichinhoVirtualPlus extends BichinhoVirtual {
 		this.setTedio(this.getHumor() - tempoBrincadeira);
 	}
 	
+	
+	
+
+
+	@Override
+	public String toString() {
+		return "BichinhoVirtualPlus ["+ "\n "
+				+ "Nome: " + getNome() +"\n "
+				+ "Idade: " + getIdade() + "\n "
+				+ "Fome: " + getFome() + "\n "
+				+ "Humor: " + getHumor() + "\n "
+				+ "Saude: " + getSaude() + "\n "
+				+ "tedio: " + tedio + "\n "+ "]";
+	}
+
 	public int getTedio() {
 		return this.tedio;
 	}

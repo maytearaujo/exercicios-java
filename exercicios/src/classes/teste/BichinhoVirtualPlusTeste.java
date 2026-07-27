@@ -51,6 +51,8 @@ public class BichinhoVirtualPlusTeste {
 		System.out.println("Humor: " + bichinhoVirtualPlus.getHumor());
 		System.out.println("Nova Fome: " + bichinhoVirtualPlus.getFome());
 		System.out.println("Tedio: " + bichinhoVirtualPlus.getTedio());
+		
+		System.out.println(bichinhoVirtualPlus.toString());
 		input.close();
 		
 		
