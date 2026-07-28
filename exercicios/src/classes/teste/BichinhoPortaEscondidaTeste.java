@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import classes.dominio.BichinhoVirtualPlus;
 
-public class PortaEscondidaTeste {
+public class BichinhoPortaEscondidaTeste {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -35,7 +35,7 @@ public class PortaEscondidaTeste {
 		do {
 
 			do {
-				System.out.println("*****************************\n" + "            Menu           \n"
+				System.out.println("\n*****************************\n" + "            Menu           \n"
 						+ "*****************************\n" + "1 - Alimentar\n" + "2 - Brincar\n" + "3 - Mostrar humor\n"
 						+ "4 - Sair\n");
 	

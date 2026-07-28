@@ -6,16 +6,27 @@ public class BichinhoVirtual {
 	private int saude;
 	private int idade;
 	
-	public BichinhoVirtual() {
-		
-	}
-	
-	
+
 	public BichinhoVirtual(int fome) {
 		this.fome = fome;
 	}
+
+	public BichinhoVirtual(String nome, int idade, int saude, int fome) {
+		this.nome = nome;
+		this.idade = idade;
+		this.saude = saude;
+		this.fome = fome;
+	}
 	
-	
+	/*@Override
+	public String toString() {
+		return String.format("%-10s %-7d %-8d %-8d\n", 
+				getNome(),
+				getIdade(),
+				getFome(), 
+				getSaude()
+				);
+	}*/
 
 	public int getHumor() {
 		
