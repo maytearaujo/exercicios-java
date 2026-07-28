@@ -7,7 +7,7 @@ public class BichinhoVirtualTeste {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		BichinhoVirtual bichinhoVirtual = new BichinhoVirtual();
+		BichinhoVirtual bichinhoVirtual = new BichinhoVirtual(0);
 		String nome;
 		int idade, fome, saude;
 		

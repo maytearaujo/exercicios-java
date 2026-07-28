@@ -4,7 +4,7 @@ public class ContaCorrente {
 
 	private int numeroConta;
 	private String nomeCorrentista;
-	private double saldo;
+	protected  double saldo;
 
 	
 	public ContaCorrente(int numeroConta, String nomeCorrentista){
