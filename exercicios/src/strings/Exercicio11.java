@@ -9,7 +9,7 @@ public class Exercicio11 {
 	
 	public static ArrayList <String> lerArquivo() {
 
-		String caminho = "string_exercicio11.txt";
+		String caminho = "arquivos\\string_exercicio11.txt";
 		ArrayList <String> linhas = new ArrayList<>();
 		String linha;
 		
@@ -19,8 +19,9 @@ public class Exercicio11 {
 				linhas.add(linha);
 			}
 			
-		} catch (Exception erro) {
-			linha = erro.getMessage();
+		} catch (Exception e) {
+			e.getStackTrace();
+			linha = e.getMessage();
 			linhas.add(linha);
 		}
 		return linhas;

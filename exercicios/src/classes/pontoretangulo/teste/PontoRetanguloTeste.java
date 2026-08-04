@@ -10,7 +10,7 @@ public class PontoRetanguloTeste {
 		Ponto ponto = new Ponto(10,20);
 		Retangulo retangulo = new Retangulo(8, 6, ponto);
 		Ponto centro;
-		int opcao, x = 0, y = 0, largura = 0, altura = 0;
+		int opcao, largura = 0, altura = 0;
 		
 		Retangulo retangulo2 = new Retangulo(9,7, ponto);
 		Retangulo retangulo3 = new Retangulo(5,3, ponto);

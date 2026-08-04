@@ -14,7 +14,7 @@ public class Exercicio18 {
 		public static void salvarArquivo(String conteudo) {
 
 			try {
-				String caminho = "listas_exercicio18.txt";
+				String caminho = "arquivos\\listas_exercicio18.txt";
 				BufferedWriter escritor = new BufferedWriter(new FileWriter(caminho, false));
 				
 				escritor.write(conteudo);

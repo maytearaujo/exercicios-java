@@ -9,7 +9,7 @@ public class Exercicio13 {
 	
 	public static ArrayList <String> lerArquivo() {
 
-		String caminho = "string_exercicio13.txt";
+		String caminho = "arquivos\\string_exercicio13.txt";
 		ArrayList <String> linhas = new ArrayList<>();
 		String linha;
 		

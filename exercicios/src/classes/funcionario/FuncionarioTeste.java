@@ -28,6 +28,7 @@ public class FuncionarioTeste {
 		funcionario.aumentarSalario(porcentualDeAumento);
 		
 		System.out.println("Novo salário: " + funcionario.getSalario());
+		input.close();
 	}
 
 }
