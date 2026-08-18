@@ -10,14 +10,13 @@ public class Usuario {
 	}
 	
 	
-	public double converterBytsMegabyts (double valorBytes) {
-		double valorMegabytes = valorBytes;
+	public double getEspacoEmMegabytes () {
+		double espacoMegabytes = 0;		
 		
-		for ( int i = 1; i <= 2; i++) {
-			valorMegabytes /= 1024;
-		}
+		espacoMegabytes = this.getBytesUtilizados() / (1024 * 1024);
 		
-		return valorMegabytes;
+		
+		return espacoMegabytes;
 	}
 	
 	public Usuario() {

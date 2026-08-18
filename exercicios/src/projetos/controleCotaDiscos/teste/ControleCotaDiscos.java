@@ -18,9 +18,13 @@ public class ControleCotaDiscos {
 		
 		usuarios = arquivoService.lerArquivo();
 		
+		for(Usuario usuario: usuarios) {
+			usuario.getEspacoEmMegabytes();
+		}
+		
 		
 		for(Usuario usuario: usuarios) {
-			total += relatorioService.calcularTotal(usuario.getBytesUtilizados());
+			total += usuario.getBytesUtilizados();
 		}
 		
 		espacoMedio = relatorioService.calcularMedia(total, usuarios.size());
