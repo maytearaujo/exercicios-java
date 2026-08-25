@@ -1,4 +1,4 @@
-package classes.invoce;
+package classes.invoice;
 
 public class Invoice {
 	private String numero;

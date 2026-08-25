@@ -1,4 +1,4 @@
-package classes.invoce;
+package classes.invoice;
 import javax.swing.JOptionPane;
 
 public class InvoiceTeste {
