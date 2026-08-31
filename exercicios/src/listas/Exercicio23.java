@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Exercicio23 {
 	
 	public static ArrayList <String> lerArquivo() {
-		String caminho = "listas_exercicio23_usuarios.txt";
+		String caminho = "arquivos\\listas_exercicio23_usuarios.txt";
 		ArrayList <String> linhas = new ArrayList<>();
 		String linha;
 		
@@ -33,7 +33,7 @@ public class Exercicio23 {
 	public static void gravarArquivo(String conteudo) {
 		
 		try {
-			String caminho = "listas_exercicio23_relatório.txt";
+			String caminho = "arquivos\\listas_exercicio23_relatório.txt";
 			BufferedWriter escritor = new BufferedWriter(new FileWriter(caminho, false));
 			
 			escritor.write(conteudo);
