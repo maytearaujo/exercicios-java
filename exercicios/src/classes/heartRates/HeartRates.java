@@ -17,7 +17,7 @@ public class HeartRates {
 		this.ano = ano;
 	}
 	
-	public int getIdade() {
+	public int calculaIdade() {
 		
 		LocalDate dataHoje = LocalDate.now();
 		LocalDate dataNascimento = LocalDate.of(this.ano, this.mes, this.dia);
@@ -30,7 +30,7 @@ public class HeartRates {
 	
 	public double calculaFrequenciaMaxima() {
 		
-		double frequenciaMaxima = 220 - getIdade();
+		double frequenciaMaxima = 220 - calculaIdade();
 		
 		
 		return frequenciaMaxima;
