@@ -32,7 +32,7 @@ public class HeartRatesTest {
 		System.out.printf("%nNome: %s %s%nData de nascimento: %d/%d/%d%nIdade: %d anos%nFrequência cardíaca:%nMáxima: %.2f%nAlvo: %s",
 				heartRates.getNome(), heartRates.getSobrenome(), 
 				heartRates.getDia(), heartRates.getMes(), heartRates.getAno(),
-				heartRates.getIdade(),
+				heartRates.calculaIdade(),
 				heartRates.calculaFrequenciaMaxima(), heartRates.calculaFrequenciaAlvo());
 				
 		input.close();
