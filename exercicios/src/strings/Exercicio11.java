@@ -126,7 +126,7 @@ public class Exercicio11 {
 			}
 		} while (erros < 6 && acertos < palavraSorteada.length());
 		
-		//input.close();
+		input.close();
 	}
 
 }

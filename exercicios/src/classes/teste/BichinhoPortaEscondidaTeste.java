@@ -71,6 +71,8 @@ public class BichinhoPortaEscondidaTeste {
 			}
 			System.out.println("\n");
 		} while (opcao != 4 );
+		
+		input.close();
 	}
 
 }
