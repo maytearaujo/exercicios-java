@@ -1,0 +1,27 @@
+package livro;
+
+public class InitArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [][] array1 = {{1, 2, 3}, {4, 5, 6}};
+		int [][] array2 = {{1, 2}, {3}, {4, 5, 6}};
+		
+		System.out.println("Values in array1 by row are");
+		OutputArray(array1);
+		
+		System.out.printf("%nValues in array2 by row are%n");
+		OutputArray(array2);
+
+	}
+
+	public static void OutputArray(int [][] array) {
+		for(int row = 0; row < array.length; row++) {
+			for (int column = 0; column < array[row].length; column++) {
+				System.out.printf("%d ", array[row][column]);
+				
+			}
+			System.out.println();
+		}
+	}
+}
